@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Link Tailwind CSS -->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Link Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900">
+    <header class="fixed top-0 w-full">
+        <nav class="bg-gray-900 p-4 shadow-md ">
+            <div class="flex space-x-4 items-center ">
+                <div class="logo text-2xl text-red-800 ">
+                    Product-Sow
+                </div>
+                <div class="nav-items text-xl text-gray-300 ">
+                    <li class="list-none hover:text-yellow-500"><a href="index.html" class="">Home</a></li>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="mt-16">
+        <!-- Category -->
+        <div class="flex">
+            <div class="p-8 flex-1 ">
+                <ul id="category-parent"
+                    class="w-48 text-sm font-medium text-white bg-gray-900 border border-gray-200 rounded-lg dark:bg-gray-700 dark:border-gray-600 dark:text-white fixed top-16 h-full">
+                    <li class="w-full px-4 py-2 border-b border-gray-200 rounded-t-lg dark:border-gray-600"><a href=""
+                    class="text-yellow-500">Category: </a></li>
+                </ul>
+            </div>
+            
+            <!-- All Products -->
+            <div class="p-8">
+                <div id="product-parent" class="grid lg:grid-cols-4 gap-10">
+                
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <!-- Link Script Files -->
+    <script src="./app.js"></script>
+</body>
+</html>
